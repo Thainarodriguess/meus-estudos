@@ -1,0 +1,12 @@
+
+    <!-- Exercício 03
+    Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento á vista com 10% de desconto e o valor em 3x. -->
+
+    <script>
+        const precoProduto = Number(prompt("Digite o preço do produto"))
+        alert("As opções de pagamento são: Débito, pix, dinheiro, crédito. Á vista temos 10% de desconto e parcelamos em 3x")
+
+        const pagmtVista = precoProduto * 0.10
+        const pagmtParcelado = precoProduto / 3
+        alert(`O valor do pagamento á vista é: ${pagmtVista.toFixed(2)}\n O valor do pagamento parcelado em 3x é: ${pagmtParcelado.toFixed(2)}`)
+    </script>
