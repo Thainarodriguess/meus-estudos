@@ -1,0 +1,4 @@
+.background-city{
+    background: url(../images/fundo.avif) repeat-x center bottom;
+    background-size: contain;
+}
